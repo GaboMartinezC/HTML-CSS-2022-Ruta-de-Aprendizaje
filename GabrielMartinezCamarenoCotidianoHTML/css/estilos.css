@@ -1,0 +1,34 @@
+body
+{
+  background-color: rgb(255,200,255);
+}
+header
+{
+  background-color: rgb(100,0,255);
+  height: 70px
+}
+nav
+{
+  background-color: rgb(120,0,250);
+  height: 30px
+}
+main
+{
+  background-color: rgb(178,255,1);
+  height: 300px
+  width: 32px
+}
+
+section
+{
+  height: 60px;
+  width: 1024px
+}
+
+aside
+{
+  background-color: rgb(1,178,255);
+  height: 90px;
+  width: 512px;
+  margin-left: 412px;
+}

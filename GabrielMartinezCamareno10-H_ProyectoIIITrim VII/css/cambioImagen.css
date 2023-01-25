@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor figure
+{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.contenedor figure img 
+{
+    width: 100%;
+    height: 100%;
+}
+.contenedor figure .capa
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa
+{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3
+{
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > .capa img
+{
+    transform: scale(1.3);
+}

@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="en" dir="1ltr">
+<head>
+	<title>Tablas</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<hr style = "height:2px;background-color:#0aa">
+  <h1>Tablas sin encabezado "&lttable&gt"</h1>
+	<h3>Table Row &lttr&gt</h3>
+	<p>Es la fila de la tabla</p>
+	<h3>Table Data &lttd&gt</h3>
+	<p>Es el dato del campo</p>
+	<hr style = "height:2px;background-color:#0aa">
+	<p>Aqui un ejemplo de como usar tablas sin encabezado</p>
+	<table border = "3">
+		<tr>
+			<td><h3>Raza</h3></td> <td><h3>Peso</h3></td>
+		</tr>
+		<tr>
+			<td>Mastin Napolitano</td><td>60-70 kg</td>
+		</tr>
+		<tr>
+			<td>Mastin Ingles</td><td>68-110 kg</td>
+		</tr>
+	</table>
+	<hr style = "height:2px;background-color:#0aa">
+	<h1>Tablas con encabezado</h1>
+	<p>Agregue&ltth&gt para un encabezado</p>
+		<table border = "3">
+			<tr>
+				<th>Raza</th><td>Peso</th>
+			</tr>
+			<tr>
+				<td>Mastin Napolitano</td><td>60-70 kg</td>
+			</tr>
+			<tr>
+				<td>Mastin Ingles</td><td>68-110 kg</td>
+			</tr>
+		</table>
+	<hr style = "height:2px;background-color:#0aa">
+	<h1>Tablas con encabezado y titulo</h1>
+	<p>Agregue&ltcaption&gt para un titulo</p>
+	<table border = "3">
+		<caption><strong>Razas de perros grandes con peso</strong></caption>
+		<tr>
+			<th>Raza</th><td>Peso</th>
+		</tr>
+		<tr>
+			<td>Mastin Napolitano</td><td>60-70 kg</td>
+		</tr>
+		<tr>
+			<td>Mastin Ingles</td><td>68-110 kg</td>
+		</tr>
+	</table>
+	<hr style = "height:2px;background-color:#0aa">
+	<h1>Tablas con combinacion de celdas</h1>
+	<p>Td rowspan y colspan (&lttd rowspan ="4"&gt y &lttd colspan = "3"&gt) <br>
+		 Es un titulo fuera de la tabla centrado con la misma. <br></p>
+	 <table border = "8">
+ 		<caption><strong>Razas de perros grandes con peso</strong></caption>
+		<td colspan = "4" style = "text-align:center">Peso por raza</td>
+		<tr>
+ 			<th>-</th><th>Raza</th><td>Peso</th>
+ 		</tr>
+		<tr>
+			<td rowspan="5">Razas Molosas</td>
+		</tr>
+ 		<tr>
+ 			<td>Mastin Napolitano</td><td>60-70 kg</td>
+ 		</tr>
+ 		<tr>
+ 			<td>Mastin Ingles</td><td>68-110 kg</td>
+ 		</tr>
+ 	</table>
+  <hr style = "height:2px;background-color:#0aa">
+	<a href="4oct.html">Volver</a>
+	<hr style = "height:2px;background-color:#0aa">
+</body>
+</html>

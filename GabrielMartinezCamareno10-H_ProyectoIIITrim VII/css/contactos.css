@@ -1,0 +1,43 @@
+.primerSegmento
+{
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.contenedorPrincipal
+{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.contenedorRedes
+{
+  height: 50%;
+  width: 50%;
+}
+.filaRedes
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+ #opciones
+{
+  margin: 5%;
+}
+.iconoDin img:last-child
+{
+  display: none;
+}
+.iconoDin:hover img:last-child
+{
+  display: block;
+}
+.iconoDin:hover img:first-child
+{
+  display: none;
+}
+.ilustracion
+{
+  margin: 2%;
+}

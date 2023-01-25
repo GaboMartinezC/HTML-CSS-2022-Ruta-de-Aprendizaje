@@ -1,0 +1,75 @@
+<!Doctype html>
+<html lang="en" dir="1ltr">
+<head>
+	<title>Shiba Gaming Store</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contenidos.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<header>
+		<p class="logo">Shiba Gaming Store</p>
+		<div class="opciones">
+			<a href="index.html"><p class="opciones">• Home</p></a>		
+	        <a href="paginaQS.html"><p class="opciones">• ¿Quienes Somos?</p></a>
+	        <a href="paginaContactenos.html"><p class="opciones">• Contactenos</p></a>
+		</div>
+	</header>
+	<div class="banner">
+		<img src="img/banner.png">
+	</div>
+    <div class="contenidoInformacion">
+        <div id="primElemento">
+            <h1>Productos de<br>calidad</h1>
+            <p>Lo mejor para garantizar la <br>
+            seguridad de su equipo y su <br>
+            dinero, así como para generarle <br>
+            la mejor experiencia a la hora <br>	de usarlo</p>
+        </div>
+        <div class = "baseCarrusel">
+            <div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1"
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="img/ssd.png">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2"
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="img/grafica.jpeg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3"
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="img/procesador.jpg">
+                    </div>
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+	<footer>
+		<p>© 2022 Shiba Gaming Store. Todos los Derechos Reservados</p>
+	</footer>
+</body>
+</html>

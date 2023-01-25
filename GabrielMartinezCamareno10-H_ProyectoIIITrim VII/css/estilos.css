@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+header
+{
+    height: 100px;    
+    display: flex;
+}
+.logo
+{
+    margin: 2%;
+    font-size: 230%;
+    width: 50%;
+}
+.opciones
+{
+    display: flex;
+    margin-top: 5%;
+    font-size: 110%;
+}
+.opciones a
+{
+    display: inline;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+.opciones a:hover
+{
+    color: grey
+}
+.banner
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+footer
+{
+    margin: 2%;
+    text-align: center; 
+}

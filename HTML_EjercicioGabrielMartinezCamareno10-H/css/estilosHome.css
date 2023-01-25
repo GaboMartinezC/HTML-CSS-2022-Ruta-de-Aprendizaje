@@ -1,0 +1,51 @@
+body
+{
+  margin: 0;
+}
+header
+{
+  display: flex;
+  background-color: #8b9291
+}
+.links
+{
+  margin-left: 700px;
+}
+.links a
+{
+  color: black;
+  text-decoration: none;
+}
+.links a:hover
+{
+  color: #565050;
+}
+.cuerpo
+{
+  background-color: #c6aa75;
+  display: flex;
+}
+.historia
+{
+  background-color: #c6aa75;
+}
+.historia table
+{
+  margin-left: 512px;
+}
+.paginasAmigas
+{
+  background-color: #c6aa75;
+}
+footer
+{
+  background-color: #8b9291
+}
+.redes
+{
+  margin-left: 400px;
+}
+.ubicacion
+{
+  margin-left: 200px;
+}
